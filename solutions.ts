@@ -44,12 +44,6 @@ const toggleReadStatus = (book: Book): BookWithStatus => {
   return { ...book, isRead: true };
 };
 
-const book = {
-  title: "TypeScript Guide",
-  author: "Jane Doe",
-  publishedYear: 2026,
-};
-
 // Problem - 06
 
 class Person {
@@ -74,8 +68,6 @@ class Student extends Person {
     return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
   }
 }
-
-const student = new Student("Alice", 20, "A");
 
 // Problem - 07
 
